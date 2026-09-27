@@ -16,6 +16,8 @@ The current check validates tracked Markdown links to local files, whitespace, c
 
 Keep planning PRs in draft while product decisions are being discussed. Passing CI verifies the stated checks, not the entire proposal. James makes the merge decision. An author cannot supply an independent approving review of their own PR; record review limitations honestly.
 
+Main is protected: a pull request, the Documentation checks status, and resolved review conversations are required, including for administrators. Force pushes and branch deletion are disabled. The approving-review count is zero for this solo repository; independent review is a process expectation, not an enforced second-person approval.
+
 Once code exists, require tests for the changed behavior, negative security cases where relevant, and inspection of the running output for UI changes. Add those checks to CI as part of implementation.
 
 ## Public information
