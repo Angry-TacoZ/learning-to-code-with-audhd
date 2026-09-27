@@ -1,0 +1,24 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*serviceAccount*.json
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.venv/
+__pycache__/
+*.pyc
+
+# Local files and evidence containing private data
+.DS_Store
+Thumbs.db
+*.log
+.local/
+private/
